@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    padding: 30px 0 10px;
+    color: gray;
+    font-size: 45px;
+    text-align: center;  
+}
+
+input{
+    outline: none;
+    font-size: 21px;
+    text-align: center;
+    color: gray;
+    text-transform: capitalize;
+}
+
+#cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 75px;
+    height: 31px;
+    color: white;
+    border: 1px gray solid;
+    margin-left: 7px
+}
+
+#btn:hover{
+    color: black;
+    background-color: transparent;
+}
+#delBtn:hover{
+    color: black;
+    background-color: transparent;
+}
+#completeBtn:hover{    
+    color: black;
+    background-color: transparent;
+}
+
+#btn{
+    background-color: gray;
+}
+
+#delBtn{
+    background-color: rgb(209, 49, 49);
+}
+
+#completeBtn{
+    background-color: rgb(54, 205, 54);
+}
+
+#task-list{
+    margin-top: 10px;
+    width: 500px;
+    height: 50vh;
+    border: 1px solid gray;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#li{
+    font-size: larger;
+    text-transform: capitalize;
+    list-style-type: none;
+    text-align: center;
+}
